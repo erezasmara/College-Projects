@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Game</title>
+	<meta charset="utf-8"/>
+    <link rel="stylesheet" href="./public/css/style.css"> <!--load css file  -->
+
+</head>
+<body id="body">
+        
+    <span id="hits">Hits: 0</span>
+    <span id="misses">Misses: 0</span>
+
+
+        <h1>Hit The Mole Game</h1>
+        <h3>Instructions:</h3>
+        <p>
+            1. Hit the mole fast as you can ...
+            <br />
+            2. If you miss 3 times ,Game Over!  
+        </p>
+
+        <span id="span">Choose Your Level:</span> 
+        <select id="select" onchange="chooseBoard()">
+            <option></option>
+            <option id="lvl1">Beginner</option>
+            <option id="lvl2">Amateur</option>
+            <option id="lvl3">Pro</option>
+        </select>
+         <br />
+         <script src = './public/js/app.js'> </script> <!--load js file  -->
+
+</body>
+
+</html>

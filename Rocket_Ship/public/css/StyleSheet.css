@@ -1,0 +1,105 @@
+﻿
+
+#header{
+    color:lightgrey;
+}
+
+.container {
+    display: flex;
+
+  }
+  .section {
+    width: 100%;
+    padding: 5px;
+   
+    justify-content: center;
+    
+  }
+
+.screen {
+    width: 320px;
+    height: 500px;
+    background-color: black;
+    padding: 50px;
+    margin: auto;
+    position: relative;
+    background-image: url('../img/Fightspace.jpg');
+    box-shadow: 5px 0px 50px 50px black;
+
+}
+
+.table-result{
+    background-color:white;
+    margin: auto;
+    position: relative;
+    box-shadow: 0px 0px 10px 5px white;
+    border: 3px black;
+    opacity: 0.6;
+
+}
+.table-result, th, td {
+    border: 1px solid black;
+  }
+
+#spaceShip{
+      width:15px;
+      height:15px;
+      position:absolute;
+      left:300px;      
+      top:0px;
+      background-color:black;
+      opacity:0;
+}
+.shooter{
+     width:50px;
+     height:40px;
+     top:550px;
+     left:175px;
+     position:absolute;      
+}
+.bullet{
+     width:5px;
+     height:40px;
+     background-color:pink; 
+     top:600px;
+     left:195px;
+     border-radius:40%;
+     position:absolute;
+     opacity:0;      
+}
+
+.button {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+.div_button{
+height: 70px;
+position: relative;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }

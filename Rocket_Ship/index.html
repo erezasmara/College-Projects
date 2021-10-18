@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <script src="./public/js/jquery.min.js"></script>
+        <link href="./public/css/StyleSheet.css" rel="stylesheet" />
+        <script src="./public/js/app.js"></script> 
+    </head>
+
+    <body background="./public/img/Space.jpg" dir="rtl">
+    
+        <div class="container">
+
+            <div class="section">
+                <h2 style="color:goldenrod;">הוראות משחק</h2>
+                <img src="./public/img/keyboard.png" width="200" height="100" />
+                
+                <p style="color:goldenrod;">קרב ספינות בחלל עליך לפגוע בחלליות איוב , ישנם שלושה סוגים של חלליות וללכל אחת ניקוד שונה , המספר המרבי של נקודות הינו 100 </p>
+                <h3 style="color:goldenrod;">:מקשי מקלדת</h3>
+                <ul style="color:goldenrod;">
+                    <li>לחץ ימינה : ספינת קר זזה ימינה </li>
+                    <li>לחץ שמאל : ספינת קר זזה שמאלה</li>
+                    <li>לחץ למעלה : ספינת קרב יורה</li>
+                  </ul>
+
+            </div>
+
+            <div class="section"> 
+                <div><h1 id="header" style="color:rgba(10, 235, 47, 0.747); text-align: center;">מלחמת כוכבים</h1> <br></div> 
+
+                <div class="screen">
+                    <div id="spaceShip"></div>
+                    <div class="shooter"> <img src="./public/img/spaceship.png"  width="50px" height="40px"/> </div>
+                    <div class="bullet"></div>
+                </div>
+
+                <div class="div_button"> <div class="center"><input class="button" onclick="start()" type="button" value="שחק !" /></div> </div> 
+                <!--Game table result-->
+                <table class="table-result">
+                    <tr>
+                        <th>חלליות</th>
+                        <th><img src="./public/img/regship.bmp" /> חללית אויב </th>
+                        <th><img src="./public/img/generalShip.bmp" /> חללית מפקד </th>
+                        <th><img src="./public/img/mothership.bmp" />   ספינת אם </th>
+                        <th> סהכ התוצאות </th>
+                    </tr>
+                    <tr>
+                        <th> נקודות </th>
+                        <th id="regular">0</th>
+                        <th id="general">0</th>
+                        <th id="mother">0</th>
+                        <th id="total">0</th>
+                    </tr>
+                    <tr>
+                        <th> מס' החלליות/פגיעות </th>
+                        <th id="shipHit">0/0</th>
+                        <th id="generalHit">0/0</th>
+                        <th id="motherHit">0/0</th>
+                        <th id="totalShips">0/0</th>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="section">
+                
+            </div>
+     
+        </div>
+    </body>
+</html>
