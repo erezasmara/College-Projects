@@ -38,10 +38,10 @@ model1 = MultinomialNB()
 model1.fit(features, d_train.toxic)
 
 
-#Model Performence
+#Model Performance
 expected = d_train.toxic
 predicted = model1.predict(features)
-print("======>Performence Report & Accuracy<=======")
+print("======>Performance Report & Accuracy<=======")
 print(metrics.classification_report(expected, predicted)+"\n")
 ######################################################################
 
@@ -71,7 +71,7 @@ print("--==Toxic Comment Filtering With NAÏVE BAYES ==--\n")
 startText=""
 while True:
   print(startText+"Please write Your Comment, else write 'exit'")
-  commment = input()
+  comment = input()
   print("\n")
 
   animation = "|/-\\"
@@ -83,11 +83,11 @@ while True:
 
 
 
-  if commment == "exit":
+  if comment == "exit":
     print("\nWe are sorry to hear that you are going, Good bye.")
     break
 
-  if commment != "exit":
-    Predict_Func(commment)
+  if comment != "exit":
+    Predict_Func(comment)
     startText="Hi Again ,"
 ######################################################################
