@@ -7,6 +7,9 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn import metrics
 from termcolor import colored
+import json
+
+
 
 #####################################
 '''this project made by: Erez Asmara '''
@@ -36,6 +39,8 @@ test_features = vectorizer.transform(d_test.comment_text)
 #BUILD NAÏVE BAYES CLASSIFIER MODEL
 model1 = MultinomialNB()
 model1.fit(features, d_train.toxic)
+
+
 
 
 #Model Performance
@@ -76,7 +81,7 @@ while True:
 
   animation = "|/-\\"
 
-  for i in range(100):
+  for i in range(10):
       time.sleep(0.1)
       sys.stdout.write("\r"+"Wait For Answer Please" + animation[i % len(animation)])
       sys.stdout.flush()
