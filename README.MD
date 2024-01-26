@@ -146,7 +146,7 @@ python3 NAIVE_BAYES.py
 
 ### Pictures:
 
-Accuracy
+- Accuracy
 
 ![](https://user-images.githubusercontent.com/33747218/137727248-6aeefd12-c15a-4a24-ad08-823fd69b88bc.png)
 
@@ -154,10 +154,9 @@ Accuracy
 
 ![](https://user-images.githubusercontent.com/33747218/137727256-0e514ce1-9c3e-417f-a280-ce89b0d0428f.png)
 
-detect a toxic comment
-![](https://user-images.githubusercontent.com/33747218/137727258-c82727f4-b16d-4dc8-852a-d3b6cce4f772.png)
+- detect a toxic comment
 
-zx
+![](https://user-images.githubusercontent.com/33747218/137727258-c82727f4-b16d-4dc8-852a-d3b6cce4f772.png)
 
 # Rocket space ship Game
 
